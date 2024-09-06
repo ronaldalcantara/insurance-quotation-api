@@ -49,7 +49,7 @@ No arquivo <b>application.yml</b>, configuramos o banco H2 e Kafka, além de def
 4. Inicie a aplicação: <code>mvn spring-boot:run</code><br/>
 
 <h3>Testes</h3>
-A aplicação inclui testes com foco em BDD, utilizando Cucumber e Mockito. 
+A aplicação inclui testes com foco em BDD, utilizando Mockito. 
 Para rodar os testes: <code>mvn test</code>
 
 <h3>Padrões e Princípios SOLID:</h3> 
