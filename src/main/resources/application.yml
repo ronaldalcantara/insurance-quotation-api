@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: insurance-quotation-api
+    version: ${app.version}
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driverClassName: org.h2.Driver
+    username: sa
+    password:
+    h2:
+      console:
+        enabled: true
+  kafka:
+    bootstrap-servers: localhost:9092
+    consumer:
+      group-id: group_id
+      auto-offset-reset: earliest
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+server:
+  port: 8081
+logging:
+  level:
+    root: INFO
