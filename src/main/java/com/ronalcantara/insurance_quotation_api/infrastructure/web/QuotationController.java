@@ -1,7 +1,7 @@
-package com.itau.insurance_quotation_api.infrastructure.web;
+package com.ronalcantara.insurance_quotation_api.infrastructure.web;
 
-import com.itau.insurance_quotation_api.application.service.QuotationService;
-import com.itau.insurance_quotation_api.domain.Quotation;
+import com.ronalcantara.insurance_quotation_api.application.service.QuotationService;
+import com.ronalcantara.insurance_quotation_api.domain.Quotation;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

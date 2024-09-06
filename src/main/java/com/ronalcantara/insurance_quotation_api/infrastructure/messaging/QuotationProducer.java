@@ -1,6 +1,6 @@
-package com.itau.insurance_quotation_api.infrastructure.messaging;
+package com.ronalcantara.insurance_quotation_api.infrastructure.messaging;
 
-import com.itau.insurance_quotation_api.domain.Quotation;
+import com.ronalcantara.insurance_quotation_api.domain.Quotation;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;
 

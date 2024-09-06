@@ -1,8 +1,8 @@
-package com.itau.insurance_quotation_api.application.service;
+package com.ronalcantara.insurance_quotation_api.application.service;
 
-import com.itau.insurance_quotation_api.domain.Quotation;
-import com.itau.insurance_quotation_api.infrastructure.messaging.QuotationProducer;
-import com.itau.insurance_quotation_api.infrastructure.persistence.QuotationRepository;
+import com.ronalcantara.insurance_quotation_api.domain.Quotation;
+import com.ronalcantara.insurance_quotation_api.infrastructure.messaging.QuotationProducer;
+import com.ronalcantara.insurance_quotation_api.infrastructure.persistence.QuotationRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;

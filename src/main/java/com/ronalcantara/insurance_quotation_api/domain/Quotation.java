@@ -1,4 +1,4 @@
-package com.itau.insurance_quotation_api.domain;
+package com.ronalcantara.insurance_quotation_api.domain;
 
 import jakarta.persistence.*;
 import lombok.Builder;

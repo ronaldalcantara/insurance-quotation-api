@@ -12,7 +12,7 @@
 	<artifactId>insurance-quotation-api</artifactId>
 	<version>1.0.0</version>
 	<name>insurance-quotation-api</name>
-	<description>Itau Challenge</description>
+	<description>Challenge</description>
 
 	<properties>
 		<java.version>17</java.version>
