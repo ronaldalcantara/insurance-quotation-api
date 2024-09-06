@@ -7,7 +7,7 @@ Esta aplicação é uma API de Cotação de Seguros construída utilizando Sprin
 - Persistência de dados utilizando o banco H2.<br/>
 - Comunicação assíncrona com Kafka para envio de cotações e recebimento de apólices.<br/>
 - Consultas de cotações existentes.<br/>
-- Testes unitários utilizando BDD com Cucumber e Mockito.<br/>
+- Testes unitários utilizando BDD e Mockito.<br/>
 
 <h2>Tecnologias Utilizadas</h2>
 - Java e Spring Boot<br/>
