@@ -61,7 +61,7 @@ Código simples, modular e fácil de entender.
 Utilizado para construir entidades complexas, como cotações.
 
 <h3>Contribuição</h3>
-1. Crie uma nova branch: <code>git checkout -b minha-branch</code>
-2. Faça as alterações desejadas e commite: <code>git commit -m 'Minha contribuição'</code>
-3. Envie sua branch: <code>git push origin minha-branch</code>
-4. Crie um Pull Request.
+1. Crie uma nova branch: <code>git checkout -b minha-branch</code><br/>
+2. Faça as alterações desejadas e commite: <code>git commit -m 'Minha contribuição'</code><br/>
+3. Envie sua branch: <code>git push origin minha-branch</code><br/>
+4. Crie um Pull Request.<br/>
