@@ -3,19 +3,19 @@
 Esta aplicação é uma API de Cotação de Seguros construída utilizando Spring Boot e organizada com base na Arquitetura Hexagonal. O sistema processa cotações de seguros, gerencia produtos, ofertas e utiliza o Kafka para mensageria, além de persistir os dados em um banco de dados H2. Ela também segue os princípios SOLID, Clean Code e utiliza padrões de projeto como Builder.
 
 <h2>Funcionalidades</h2>
-- Solicitação e processamento de cotações de seguros.
-- Persistência de dados utilizando o banco H2.
-- Comunicação assíncrona com Kafka para envio de cotações e recebimento de apólices.
-- Consultas de cotações existentes.
-- Testes unitários utilizando BDD com Cucumber e Mockito.
+- Solicitação e processamento de cotações de seguros.<br/>
+- Persistência de dados utilizando o banco H2.<br/>
+- Comunicação assíncrona com Kafka para envio de cotações e recebimento de apólices.<br/>
+- Consultas de cotações existentes.<br/>
+- Testes unitários utilizando BDD com Cucumber e Mockito.<br/>
 
 <h2>Tecnologias Utilizadas</h2>
-- Java e Spring Boot
-- Spring Data JPA (para persistência de dados no H2)
-- Kafka (para mensageria)
-- Mockito (para testes BDD)
-- Arquitetura Hexagonal
-- Princípios SOLID e Clean Code
+- Java e Spring Boot<br/>
+- Spring Data JPA (para persistência de dados no H2)<br/>
+- Kafka (para mensageria)<br/>
+- Mockito (para testes BDD)<br/>
+- Arquitetura Hexagonal<br/>
+- Princípios SOLID e Clean Code<br/>
 
 <h2>Configuração</h2>
 <h3>Banco de Dados H2</h3>
@@ -27,25 +27,25 @@ A aplicação utiliza Kafka para enviar e receber mensagens de cotações e apó
 <h3>Dependências</h3>
 No pom.xml foram configuradas as seguintes dependências principais:
 
-- Spring Boot
-- Spring Data JPA
-- Spring Kafka
-- H2 Database
-- Lombok
-- Mockito
+- Spring Boot<br/>
+- Spring Data JPA<br/>
+- Spring Kafka<br/>
+- H2 Database<br/>
+- Lombok<br/>
+- Mockito<br/>
 
 <h3>Variáveis de Configuração</h3>
 No arquivo <b>application.yml</b>, configuramos o banco H2 e Kafka, além de definir o nome e a versão da aplicação.
 
 <h3>Execução</h3>
 <h3>Pré-requisitos</h3>
-- Docker e Docker Compose (para rodar o Kafka localmente)
-- Java 11+
+- Docker e Docker Compose (para rodar o Kafka localmente)<br/>
+- Java 11+<br/>
 Passos
-1. Clone o repositório.
-2. Execute o comando mvn clean install para instalar as dependências.
-3. Use o Docker para iniciar o Kafka: <code>docker-compose up -d</code>
-4. Inicie a aplicação: <code>mvn spring-boot:run</code>
+1. Clone o repositório.<br/>
+2. Execute o comando mvn clean install para instalar as dependências.<br/>
+3. Use o Docker para iniciar o Kafka: <code>docker-compose up -d</code><br/>
+4. Inicie a aplicação: <code>mvn spring-boot:run</code><br/>
 
 <h3>Testes</h3>
 A aplicação inclui testes com foco em BDD, utilizando Cucumber e Mockito. 
