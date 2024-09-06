@@ -41,7 +41,8 @@ No arquivo <b>application.yml</b>, configuramos o banco H2 e Kafka, além de def
 <h3>Pré-requisitos</h3>
 - Docker e Docker Compose (para rodar o Kafka localmente)<br/>
 - Java 11+<br/>
-Passos
+
+<h3>Passos</h3><br/>
 1. Clone o repositório.<br/>
 2. Execute o comando mvn clean install para instalar as dependências.<br/>
 3. Use o Docker para iniciar o Kafka: <code>docker-compose up -d</code><br/>
